@@ -94,7 +94,7 @@ Feel free to check out my work and reach out!
 
 
 - 🌐 [website] (https://www.elnazalikarami.com/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/ElnazAlikarami)
+- 💼 [LinkedIn](https://www.linkedin.com/in/elnaz-alikarami/)
 - 🔵 [blusky](https://bsky.app/profile/elnaza.bsky.social)
 - 📧 Email: elnaz.karami@gmail.com
 
