@@ -1,7 +1,7 @@
 ## Hi there 👋
 # elnazkarami
 
-Welcome to my GitHub repository! This is a personal hub where I share my projects, experiments, and interests in [your field(s) — e.g., neuroscience, data science, bio-inspired design, etc.].
+Welcome to my GitHub repository! This is a personal hub where I share my projects, experiments, and interests in  neuroscience, data science, bio-inspired design, etc.
 
 ---
 
