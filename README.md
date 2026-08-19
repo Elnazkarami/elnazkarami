@@ -1,107 +1,66 @@
 ## Hi there 👋
-# elnazkarami
 
-Welcome to my GitHub repository! This is a personal hub where I share my projects, experiments, and interests in  neuroscience, data science, bio-inspired design, etc.
+I'm **Elnaz Alikarami** — I build systems that make scientific and clinical data
+trustworthy.
 
----
+I came to software from neuroscience. Human brain imaging taught me how research data
+actually goes wrong: fragmented across incompatible systems, cleaned by hand, corrected
+in ways nobody can reconstruct six months later. I now build the infrastructure that
+stops that happening — with the domain knowledge to know which errors matter and which
+are noise.
 
-## 🧠 About Me
-
-I’m Elnaz Alikarami, a Neuroscience Researcher & Data Enthusiast, with a strong interest in computational neuroscience. I previously worked on human brain imaging and now focus on data management and research coordination in neuroscience labs. 
-I enjoy bridging experimental and computational approaches, building efficient systems for scientific data, and exploring how smart data practices can accelerate discovery in brain research. 
-
----
-## 😄 Pronouns:
-She/her 
+**Pronouns:** she/her
 
 ---
 
-## 📁 Projects
+## 🔬 What I'm building
 
-🧠 Human Brain Imaging Scripts — Scripts and notebooks from my past work in fMRI and cognitive neuroscience (to be uploaded soon).
+**[Clinical Data Fabric System](https://github.com/Elnazkarami/clinical-data-fabric-)** —
+a clinical data platform: multi-source ingestion, CDISC-aligned standardisation,
+validation, correction with full downstream propagation, and submission-ready
+SDTM/ADaM export where every row traces back to what it was built from.
 
-📊 Data Management Systems — Organizing and maintaining efficient, accessible systems for collaborative research labs.
-📊 Data harmonization and reproducibility in multi-lab settings
+Built solo in Python. **Zero third-party runtime dependencies**, 677 tests at 92%
+branch coverage, CI on 3.11–3.13. That repository is a public summary; the source is
+available on request.
 
-
-
-
-
-## 🚀 Highlights
-🧩 Background in human neuroimaging (fMRI, behavior, cognition)
-
-💡 Current work: Research/data administration + data wrangling in neuroscience labs
-
-🧠 Interested in computational models of the brain, open science, and bio-inspired systems
-
+Alongside it: data harmonisation and reproducibility across multi-lab settings,
+research data management in neuroscience labs, and proposing standard structures for
+neurodata.
 
 ---
 
-## 🔧 Tech Stack
+## 🛠 What I work with
 
-- Python, Jupyter, Pandas, Matplotlib, Seaborn  
-- Git, GitHub, Markdown
-- SQL 
-- R, MATLAB
+**Engineering** — Python, SQL, REST API design, schema design, pytest, CI/CD, Git, Docker
+
+**Data** — pandas, NumPy, data modelling, lineage and provenance, pipeline design
+
+**Clinical & research standards** — CDISC (SDTM, ADaM), Define-XML, UCUM,
+21 CFR Part 11, HIPAA/GDPR/PIPEDA handling of identifiers
+
+**Research** — fMRI and neuroimaging analysis, experimental design, R, MATLAB
+
+---
+
+## 💬 Ask me about
+
+- Designing data systems that survive an audit — lineage, provenance, and why
+  "we fixed it in the spreadsheet" is a problem you find out about much later
+- Running a research lab like a startup 🚀
+- Brain imaging, cognitive neuroscience, and behavioural data
+- Bridging the gap between the people who collect scientific data and the people who
+  build systems for it
 
 ---
 
-## 📝 To-Do List
+## 🤝 Let's connect
 
-- [ ] document the data management and automation work
-- [ ] publication of the proposed data structure for neurodata 
-- [ ] Add blog-style write-ups for selected projects  
-- [ ] Clean and annotate code for biomimetic modeling project  
-- [ ] Integrate interactive visualizations (e.g., with Plotly or Bokeh)
-- [ ] Upload clean versions of fMRI preprocessing and analysis notebooks
-- [ ] Document Pynapple-related workflows I use internally
-- [ ] Build a personal landing page using GitHub Pages
-- [ ] Learn more about automated data pipelines with Python and Airflow
-
-
-
----
-## 🔭 I’m currently working on ...
-
-Neuroscience projects involving open-source tools, data visualization, or computational modeling
- 
-Building shared infrastructures for data sharing and reproducibility in science
-
-use of LLM and foundation models in large-scale neural data abalysis 
-
-neurofoundation models 
-
-learing more and more about AI 
-
---
-## 💬 Ask me about ...
-
-Running a research lab like a startup 🚀
-
-Brain imaging, cognitive neuroscience, and behavioral data
-
-Research tools and how to streamline team workflows with tech
-
-User experience in software, pipelines, etc 
-
-
-
-
-
-## 🤝 📫 Let's Connect
-
-Feel free to check out my work and reach out!
-
-
-- 🌐 [website](https://www.elnazalikarami.com/)
+- 🌐 [elnazalikarami.com](https://www.elnazalikarami.com/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/elnaz-alikarami/)
-- 🔵 [blusky](https://bsky.app/profile/elnaza.bsky.social)
-- 📧 Email: elnaz.karami@gmail.com
+- 🦋 [Bluesky](https://bsky.app/profile/elnaza.bsky.social)
+- 📧 elnaz.karami@gmail.com
 
 ---
 
-> "Still mapping neurons, just with different tools. From fMRI to file systems—curiosity leads the way."
-> "I used to scan brains. Now I organize data. Same goal: make sense of the noise."
-
-
-
+> Still mapping systems, just not neural ones. Same goal: make sense of the noise.
