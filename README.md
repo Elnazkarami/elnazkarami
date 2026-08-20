@@ -63,4 +63,4 @@ neurodata.
 
 ---
 
-> Still mapping systems, just not neural ones. Same goal: make sense of the noise.
+> Still mapping systems, just more than only neural ones. Same goal: make sense of the noise.
