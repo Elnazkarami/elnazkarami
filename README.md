@@ -24,9 +24,22 @@ Built solo in Python. **Zero third-party runtime dependencies**, 677 tests at 92
 branch coverage, CI on 3.11–3.13. That repository is a public summary; the source is
 available on request.
 
-Alongside it: data harmonisation and reproducibility across multi-lab settings,
-research data management in neuroscience labs, and proposing standard structures for
-neurodata.
+**[N-DOS](https://github.com/Elnazkarami/N-DOS-)** — a data organisation standard for
+animal neuroscience labs, and the system that applies it. Point it at a directory
+nobody understands any more: it reads inside the archives without extracting them,
+then rebuilds a standard layout — subject, session, data type — derived from whatever
+structure already exists, explaining every placement it makes. After that, metadata
+capture through the spreadsheets labs already use, cohort queries that cite the
+evidence behind every match, run provenance from a figure back to raw data, and
+handoff to BIDS and NWB.
+
+Built solo in Python. **Zero third-party runtime dependencies** — it has to run on
+locked-down acquisition machines — with 212 tests and CI on 3.9 and 3.13 across Linux,
+macOS and Windows. Developed against real lab drives rather than synthetic examples,
+which is where most of its design came from.
+
+Alongside both: data harmonisation and reproducibility across multi-lab settings, and
+research data management in neuroscience labs.
 
 ---
 
