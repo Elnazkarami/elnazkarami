@@ -24,19 +24,35 @@ Built solo in Python. **Zero third-party runtime dependencies**, 677 tests at 92
 branch coverage, CI on 3.11–3.13. That repository is a public summary; the source is
 available on request.
 
-**[N-DOS](https://github.com/Elnazkarami/N-DOS-)** — a data organisation standard for
-animal neuroscience labs, and the system that applies it. Point it at a directory
-nobody understands any more: it reads inside the archives without extracting them,
-then rebuilds a standard layout — subject, session, data type — derived from whatever
-structure already exists, explaining every placement it makes. After that, metadata
-capture through the spreadsheets labs already use, cohort queries that cite the
-evidence behind every match, run provenance from a figure back to raw data, and
-handoff to BIDS and NWB.
+**[N-DOS](https://github.com/Elnazkarami/N-DOS)** — a system for recovering,
+describing and querying animal neuroscience data that nobody organised. Point it at a
+drive whose collector has graduated: it reads what is there without changing it,
+reads inside the archives without extracting them, and rebuilds a usable layout —
+subject, session, data type — from whatever structure already exists, labelling every
+inference as an inference so you can correct it rather than trust it.
 
-Built solo in Python. **Zero third-party runtime dependencies** — it has to run on
-locked-down acquisition machines — with 212 tests and CI on 3.9 and 3.13 across Linux,
-macOS and Windows. Developed against real lab drives rather than synthetic examples,
-which is where most of its design came from.
+Then the parts that make it worth keeping. Full-text search across filenames, lab
+notes, protocols and spreadsheets — including Word and Excel — where a hit in a
+surgery log names the animals it mentions and points at their recording sessions.
+Cohort queries that return three answers rather than two: matched, excluded, and
+**cannot be ruled out**, because a session whose species nobody recorded is not a
+session known not to be a mouse, and collapsing those two cases biases a cohort
+quietly. Provenance from a figure back to the raw files behind it. Handoff to BIDS
+and NWB. An optional local interface, for the people in a lab who do not work at a
+command line.
+
+Built solo in Python and released: `pip install ndos`. **Zero third-party runtime
+dependencies** — it has to run on locked-down acquisition machines, and CI proves it by
+running every module against a bare interpreter — with 444 tests on 3.9 and 3.13 across
+Linux, macOS and Windows. Designed against real lab drives rather than synthetic
+examples, which is where most of its design came from: the discovery that most of the
+data on an inherited drive is sitting inside archives nothing had ever opened changed
+the whole approach.
+
+**Looking for labs to pilot it.** If you have a directory nobody fully understands any
+more, that is exactly what it needs to meet — it takes about fifteen minutes and will
+not move or change your data.
+[Start here](https://github.com/Elnazkarami/N-DOS/discussions/21).
 
 Alongside both: data harmonisation and reproducibility across multi-lab settings, and
 research data management in neuroscience labs.
